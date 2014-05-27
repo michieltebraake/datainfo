@@ -1,0 +1,2 @@
+INSERT INTO boek (isbn, titel, auteur) VALUES ('978-3-16-148410-0', 'Game of Thrones', 'George ARR ARR Martin');
+INSERT INTO boek (isbn, titel, auteur) VALUES ('978-3-16-148410-0', 'Game of Thrones 2', 'George ARR ARR Martin');

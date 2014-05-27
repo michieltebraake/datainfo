@@ -1,0 +1,2 @@
+CREATE TABLE boek (isbn VARCHAR(20), titel VARCHAR(50), auteur VARCHAR(50), PRIMARY KEY (isbn));
+CREATE TABLE exemplaar (isbn VARCHAR(20), volgnummer INTEGER, gewicht INTEGER, kast INTEGER, PRIMARY KEY(isbn, volgnummer), FOREIGN KEY (isbn) REFERENCES boek(isbn) ON DELETE CASCADE ON UPDATE CASCADE);
